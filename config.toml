@@ -1,0 +1,5 @@
+baseURL = "https://nooonde.github.io/hugo-example"
+languageCode = "de-de"
+title = "Suedsicht Title"
+publishDir = "docs"
+theme = "suedsicht"

@@ -1,0 +1,12 @@
+name = "Suedsicht"
+license = "MIT"
+licenselink = "https://github.com/vimux/blank/blob/master/LICENSE.md"
+description = "Starter Hugo theme."
+homepage = "https://suedsicht.de/"
+tags = ["blog", "plain", "blank", "starter"]
+features = ["blog"]
+min_version = 0.1
+
+[author]
+  name = "Daniel"
+  homepage = "https://suedsicht.de"
