@@ -1,4 +1,4 @@
-baseURL = "https://nooonde.github.io/hugo-example"
+baseURL = "https://nooonde.github.io/hugo"
 languageCode = "de-de"
 title = "Suedsicht Title"
 publishDir = "docs"
