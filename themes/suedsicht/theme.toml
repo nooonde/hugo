@@ -1,7 +1,7 @@
-name = "Suedsicht"
+name = "Suedsicht Starter Template"
 license = "MIT"
 licenselink = "https://github.com/vimux/blank/blob/master/LICENSE.md"
-description = "Starter Hugo theme."
+description = "Suedsicht Starter Template"
 homepage = "https://suedsicht.de/"
 tags = ["blog", "plain", "blank", "starter"]
 features = ["blog"]
