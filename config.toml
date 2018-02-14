@@ -1,10 +1,10 @@
 baseURL = "https://nooonde.github.io/hugo/"
 languageCode = "de-de"
-title = "Suedsicht Starter Template"
+title = "My Starter Template"
 publishDir = "docs"
 theme = "suedsicht"
 
 [params]
-  description = "Suedsicht's Starter Template"
+  description = "My Starter Template"
   author = "Daniel"
   keywords = "keyword1, keyword2, keyword3"

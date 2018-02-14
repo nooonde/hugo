@@ -2,4 +2,31 @@
 
   {{ .Content }}
 
+  {{ range .Params.tile }}
+    {{ if eq .type "youtube" }}
+      <h3>This is Youtube</h3>
+      <h2>{{ .header }}</h2>
+      {{ .content }}<br /><br / >
+    {{ end }}
+
+    {{ if eq .type "mp4" }}
+      <h3>This is MP4</h3>
+      <h2>{{ .header }}</h2>
+      {{ .content }}<br /><br / >
+    {{ end }}
+
+    {{ if eq .type "social" }}
+      <h3>This is Social</h3>
+      <h2>{{ .header }}</h2>
+      {{ .content }}<br /><br / >
+    {{ end }}
+
+    {{ if eq .type "image" }}
+      <h3>This is Image</h3>
+      <h2>{{ .header }}</h2>
+      {{ .content }}<br /><br / >
+    {{ end }}
+
+  {{ end }}
+
 {{ partial "footer.html" . }}
