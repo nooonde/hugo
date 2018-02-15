@@ -4,6 +4,20 @@ title = "My Starter Template"
 publishDir = "docs"
 theme = "suedsicht"
 
+[mediaTypes]
+[mediaTypes."text/htaccess"]
+suffix = "htaccess"
+
+[outputFormats]
+[outputFormats.MyHTA]
+mediaType = "text/htaccess"
+baseName = ""
+isPlainText = true
+
+[outputs]
+  home = ["HTML", "MyHTA"]
+  page = ["HTML", "MyHTA"]
+
 [params]
   description = "My Starter Template"
   author = "Daniel"
