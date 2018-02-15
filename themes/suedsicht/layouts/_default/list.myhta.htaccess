@@ -43,21 +43,21 @@
 ## --------------------------------------------------------
 # 1 YEAR - fonts
 <FilesMatch "\.(woff2|woff|eot|ttf)$">
-    Header set Cache-Control "max-age=31536000, public"
+    Header set Cache-Control "max-age=31536000, docs"
 </FilesMatch>
 
 # 3 MONTHS - images don't change except in strange cases
 <FilesMatch "\.(png|svg|ico|jpg|jpeg|gif|pdf)$">
-    Header set Cache-Control "max-age=7884000, public"
+    Header set Cache-Control "max-age=7884000, docs"
 </FilesMatch>
 <FilesMatch "^manifest\.json$">
     # Manifest file used for Favicons by RealFaviconGenerator
-    Header set Cache-Control "max-age=7884000, public"
+    Header set Cache-Control "max-age=7884000, docs"
 </FilesMatch>
 
 # 2 WEEKS - possible to be changed
 <FilesMatch "\.(css|txt|js)$">
-    Header set Cache-Control "max-age=1209600, public"
+    Header set Cache-Control "max-age=1209600, docs"
 </FilesMatch>
 
 # NEVER CACHE - notice the extra directives
