@@ -9,3 +9,4 @@ author: "Daniel"
 Das ist ein Test
 {{< figure src="images/test_65_ap.jpg" title="Steve Francia" >}}
 {{< figure src="images/test_65_ph.jpg" title="Steve Francia" >}}
+{{< figure src="images/test_100_tinyjpg.jpg" title="Steve Francia" >}}
