@@ -12,3 +12,8 @@ Das ist ein Test
 {{< figure src="images/85-3.jpg" title="85-3" >}}
 {{< figure src="images/85-4.jpg" title="85-4" >}}
 {{< figure src="images/85-5.jpg" title="85-5" >}}
+{{< figure src="images/80-1.jpg" title="80-1" >}}
+{{< figure src="images/80-2.jpg" title="80-2" >}}
+{{< figure src="images/80-3.jpg" title="80-3" >}}
+{{< figure src="images/80-4.jpg" title="80-4" >}}
+{{< figure src="images/80-5.jpg" title="80-5" >}}
