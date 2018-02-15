@@ -62,7 +62,7 @@ tile:
     overlay: "Video Dreh"
     overlay-origin: "top-left"
     header: "Dominik Zehle"
-    content: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa."
+    content: "Lorem ipsum dolor sit amet, <strong>consectetuer</strong> adipiscing elit.<br /> Aenean commodo ligula eget dolor. Aenean massa."
   tile8:
     width: "half"
     type: "youtube"

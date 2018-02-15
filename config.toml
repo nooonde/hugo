@@ -8,3 +8,30 @@ theme = "suedsicht"
   description = "My Starter Template"
   author = "Daniel"
   keywords = "keyword1, keyword2, keyword3"
+
+[[menu.main]]
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    weight = -90
+    url = "/about/"
+    identifier = "about"
+[[menu.main]]
+    name = "getting started"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/getting-started/"
+    identifier = "started"
+[[menu.main]]
+    name = "under getting started"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/getting-started/"
+    identifier = "under-started"
+    parent = "started"
+[[menu.main]]
+    name = "under the blog"
+    pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/getting-started/"
+    identifier = "undertheblog"
+    parent = "blog"

@@ -8,13 +8,12 @@
 	<meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
 	<meta name="author" content="{{if .IsHome}}{{ $.Site.Params.author }}{{else}}{{.Params.author}}{{end}}" />
 	<meta name="keywords" content="{{if .IsHome}}{{ $.Site.Params.keywords }}{{else}}{{ delimit .Keywords ", "}}{{end}}" />
-	<link rel="stylesheet" href="/css/{{ index .Site.Data.hash "style.css" }}" />
+	<!-- <link rel="stylesheet" href="/css/{{ index .Site.Data.hash "style.css" }}" /> -->
 	{{ .Hugo.Generator }}
 </head>
 <body>
 	<header>
+		{{ partial "nav.html" . }}
 		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-		<nav>
-			{{ partial "nav.html" . }}
-		</nav>
+
 	</header>
