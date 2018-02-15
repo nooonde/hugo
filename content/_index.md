@@ -7,4 +7,4 @@ author: "Daniel"
 # Hallo
 
 Das ist ein Test
-{{< figure src="images/test_70_bikubisch_autom.jpg" title="Steve Francia" >}}
+{{< figure src="images/test_65_pxelwiederholung.jpg" title="Steve Francia" >}}
