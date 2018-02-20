@@ -19,6 +19,25 @@
 ### Delete /public Folder if necessary
 `rm public -r`
 
+### Install GULP (for SCSS, CSS-Minify, JS-Minify)
+```
+npm init -y
+npm install --save-dev gulp
+npm install --save-dev gulp-sass
+npm install --save-dev gulp-autoprefixer
+npm install --save-dev gulp-hash
+npm install --save-dev gulp-minify
+npm install --save-dev del
+gulp
+```
+
+### If GULP Command doesnt work (or not found)
+```
+npm config set prefix /usr/local
+npm root -g
+npm install -g gulp
+```
+
 ### GIT Initialize and Push all (ignore .gitignore)
 ```
 git init
