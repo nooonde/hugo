@@ -1,3 +1,12 @@
+### Install Homebrew on Mac
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
+### Install HUGO on Mac
+`brew install hugo`
+
+### Install HUGO on Linux
+`snap install hugo`
+
 ### ADD /docs Folder to config.toml
 `publishDir = "docs"`
 
