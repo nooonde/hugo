@@ -13,7 +13,7 @@
 ### GIT Initialize
 ```
 git init
-git remote add origin https://github.com/xxxx/xxxx.git
+git remote add origin https://github.com/nooonde/hugo.git
 git add --all
 git commit -m "Initial commit"
 git push -u origin master
